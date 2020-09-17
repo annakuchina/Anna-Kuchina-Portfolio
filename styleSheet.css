@@ -275,9 +275,8 @@ p {
 }
 
 hr {
-  width: 40%;
+  width: 60%;
   height: 10px;
-  width: 40%;
   height: 2px;
   background-color: white;
   border: none;
@@ -286,11 +285,11 @@ hr {
 }
 
 .annatext {
-  font-size: 50px;
+  font-size: 7em;
 }
 
 .webdev {
-  font-size: 30px;
+  font-size: 4em;
 }
 
 
@@ -543,7 +542,6 @@ a.certification {
 
   hr {
     height: 4px;
-    width: 60%;
   }
 
   .work-container {
