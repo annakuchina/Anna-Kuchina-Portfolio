@@ -162,7 +162,7 @@ nav #menu a li:hover {
   margin-top: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   #toggle {
     visibility: visible;
     opacity: 1;
@@ -173,13 +173,12 @@ nav #menu a li:hover {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   #resize {
     visibility: hidden !important;
   }
 }
 
-.customnav {}
 
 /* end of responsive menu */
 body {
@@ -319,6 +318,14 @@ hr {
 }
 
 
+a.title.certification:hover {
+  color: #80b8b5;
+  -webkit-transition: color 0.25s;
+  -moz-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  transition: color 0.25s;
+}
+
 .title {
   font-weight: bold;
   padding-bottom: 5px;
@@ -337,9 +344,12 @@ a.certification {
 .certification {
   color: #86d6d0;
   font-family: "Lato", sans-serif;
-  font-size: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+  -webkit-transition: color 2s;
+  -moz-transition: color 2s;
+  -o-transition: color 2s;
+  transition: color 2s;
 }
 
 .img-circle {
@@ -475,12 +485,6 @@ a.certification {
 
 
 
-@media screen and (min-width: 500px) {
-  .annatext {}
-
-
-}
-
 @media screen and (min-width: 660px) {
   .annatext {
     font-size: 70px;
@@ -503,7 +507,8 @@ a.certification {
 
 }
 
-@media screen and (min-width: 900px) {
+
+@media screen and (min-width: 1000px) {
   .link-title {
     font-size: 22px;
   }
@@ -524,7 +529,6 @@ a.certification {
   .logo {
     height: 70px;
     width: 70px;
-
     margin-left: 130px;
   }
 
@@ -599,7 +603,7 @@ a.certification {
     margin-bottom: 40px;
   }
 
-
+}
 
   @media screen and (min-width: 1200px) {
     .work-container {
