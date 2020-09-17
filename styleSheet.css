@@ -250,8 +250,6 @@ p {
 }
 
 .hero {
-  margin-right: 50px;
-  margin-left: 50px;
   margin-top: 130px;
 }
 
@@ -280,16 +278,16 @@ hr {
   height: 2px;
   background-color: white;
   border: none;
-  margin-top: 5px;
+  margin-top: 3px;
   margin-bottom: 5px;
 }
 
 .annatext {
-  font-size: 7em;
+  font-size: 8vw;
 }
 
 .webdev {
-  font-size: 4em;
+  font-size: 6vw;
 }
 
 
@@ -467,7 +465,7 @@ a.certification {
   display: grid;
   grid-template-columns: auto auto auto auto;
   margin: auto;
-  grid-column-gap: 50px;
+  grid-column-gap: 30px;
   justify-content: center;
   height: calc(70vh - 110px);
   background-color: #86d6d0;
@@ -475,7 +473,7 @@ a.certification {
 
 .fafas {
   margin: auto;
-  font-size: 65px;
+  font-size: 45px;
 }
 
 .fab {
@@ -502,6 +500,14 @@ a.certification {
   hr {
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+
+  .fafagrid {
+    grid-column-gap: 50px;
+  }
+
+  .fafas {
+    font-size: 65px;
   }
 
 }
