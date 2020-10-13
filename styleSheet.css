@@ -273,7 +273,7 @@ p {
 }
 
 hr {
-  width: 60%;
+  width: 90%;
   height: 10px;
   height: 2px;
   background-color: white;
@@ -314,13 +314,14 @@ hr {
   letter-spacing: 1.5px;
 }
 
-
-a.title.certification:hover {
+a.certification:click {
   color: #80b8b5;
-  -webkit-transition: color 0.25s;
-  -moz-transition: color 0.25s;
-  -o-transition: color 0.25s;
-  transition: color 0.25s;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .title {
@@ -328,7 +329,7 @@ a.title.certification:hover {
   padding-bottom: 10px;
   color: #80b8b5;
   font-family: "Playfair Display", serif;
-  font-size: 18px;
+  font-size: 24px;
   letter-spacing: 1px;
 }
 
@@ -487,22 +488,6 @@ a.certification {
   color: white;
 }
 
-.loaded {
-  position: absolute;
-  left: 60%;
-  bottom: -40%;
-  margin-left: -190px;
-  -webkit-animation-name: FadeIn;
-  -webkit-animation-timing-function: ease;
-  -webkit-animation-duration: 1s;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -webkit-animation-name: movinghand;
-  -webkit-animation-duration: 0.5;
-}
-
 
 @media screen and (min-width: 660px) {
   .annatext {
@@ -522,6 +507,7 @@ a.certification {
   hr {
     margin-top: 0px;
     margin-bottom: 0px;
+    width: 60%;
   }
 
   .fafagrid {
@@ -533,7 +519,19 @@ a.certification {
   }
 
   .title {
-    font-size: 23px;
+    font-size: 26px;
+  }
+
+  a.certification {
+    font-size: 20px;
+  }
+  
+  a.certification:hover {
+    color: #80b8b5;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    transition: color 0.25s;
   }
 
 }
