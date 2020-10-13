@@ -313,6 +313,9 @@ hr {
   padding-top: 35px;
   letter-spacing: 1.5px;
   font-size: 18px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a.certification:click {
