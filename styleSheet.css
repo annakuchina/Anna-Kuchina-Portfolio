@@ -278,16 +278,16 @@ hr {
   height: 2px;
   background-color: white;
   border: none;
-  margin-top: 3px;
+  margin-top: 7px;
   margin-bottom: 5px;
 }
 
 .annatext {
-  font-size: 8vw;
+  font-size: 12vw;
 }
 
 .webdev {
-  font-size: 6vw;
+  font-size: 10vw;
 }
 
 
@@ -324,14 +324,12 @@ a.title.certification:hover {
 }
 
 .title {
-  font-weight: bold;
-  padding-bottom: 5px;
+  padding-top: 15px;
+  padding-bottom: 10px;
   color: #80b8b5;
   font-family: "Playfair Display", serif;
-  font-weight: bold;
-  font-size: 23px;
-  padding-top: 5px;
-  letter-spacing: 2px;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
 a.certification {
@@ -341,8 +339,8 @@ a.certification {
 .certification {
   color: #86d6d0;
   font-family: "Lato", sans-serif;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   -webkit-transition: color 2s;
   -moz-transition: color 2s;
   -o-transition: color 2s;
@@ -534,6 +532,10 @@ a.certification {
     font-size: 65px;
   }
 
+  .title {
+    font-size: 23px;
+  }
+
 }
 
 
@@ -563,6 +565,11 @@ a.certification {
 
   .center {
     height: calc(100vh-200px);
+  }
+
+  .certification {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .hero {
