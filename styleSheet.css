@@ -470,7 +470,7 @@ a.certification {
 
 .fafagrid {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   margin: auto;
   grid-column-gap: 30px;
   justify-content: center;
