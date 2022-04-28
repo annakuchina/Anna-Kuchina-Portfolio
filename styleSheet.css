@@ -358,6 +358,20 @@ p {
   margin-top: 30px;
   display: inline-block;
   border-radius: 3px;
+  transition: all 0.3s ease-out;
+}
+
+.arrow-down:hover {
+  border: solid #74c9c2;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 10px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin-top: 30px;
+  display: inline-block;
+  border-radius: 3px;
+  transition: all 0.3s ease-out;
 }
 
 .hero-box {
