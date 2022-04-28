@@ -542,6 +542,13 @@ a.certification {
   align-content: center;
 }
 
+a.certification:hover {
+  color: #f2bc9f;
+  -webkit-transition: color 0.25s;
+  -moz-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  transition: color 0.25s;
+}
 
 
 .link {
@@ -704,13 +711,6 @@ a.certification {
     display: block;
   }
   
-  a.certification:hover {
-    color: #f2bc9f;
-    -webkit-transition: color 0.25s;
-    -moz-transition: color 0.25s;
-    -o-transition: color 0.25s;
-    transition: color 0.25s;
-  }
 
   .slidesImg {
     max-width: 500px;
