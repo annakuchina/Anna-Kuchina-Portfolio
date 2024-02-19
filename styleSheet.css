@@ -375,8 +375,7 @@ p {
 }
 
 .hero-box {
-  // background-image: url(https://www.dropbox.com/s/q288n17jep71evl/heroimg.jpg?raw=1);
-  background-image: url(https://www.dropbox.com/s/voiatsxz4v18crc/hero4.jpg?raw=1);
+  background-image: url(images/heroimg.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -420,8 +419,6 @@ p {
   height: calc(100vh - 104px);
 }
 
-
-
 .herotext {
   top: 34vh;
   text-align: center;
@@ -444,26 +441,27 @@ hr {
 
 .annatext {
   font-size: 12vw;
-  // font-family: "Playfair Display", serif;
 }
 
 .webdev {
   font-size: 10vw;
 }
 
-
-
 .img-circle {
   border-radius: 50%;
 }
 
-.abouttext {
+.about-text {
   margin-top: 30px;
   text-align: center;
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
+}
+
+.about-paragraph {
+  padding-top: 10px;
 }
 
 .certifications {
